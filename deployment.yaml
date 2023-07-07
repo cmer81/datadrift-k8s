@@ -19,6 +19,11 @@ spec:
             secretKeyRef:
               name: github-token
               key: GITHUB_TOKEN
+        - name: certificat
+          valueFrom:
+            secretKeyRef:
+              name: certificat
+              key: certificat.pem
         resources:
           requests:
             cpu: 200m

@@ -12,3 +12,7 @@ secretGenerator:
 - name: github-token
   envs:
   - .env.secret
+
+- name: certificat
+  files:
+  - certificat.pem
